@@ -1,0 +1,15 @@
+{
+  "name": "Focusyn",
+  "version": "1.0",
+  "description": "Automatically use Mezz-in Beta (Focus yes or no)",
+  "permissions": ["activeTab", "declarativeContent", "webRequest", "webRequestBlocking", "*://mezz-in.com/a/*"],
+  "background": {
+	  "scripts": ["background.js"],
+	  "persistent": true
+  },
+  "page_action": {
+	  "default_title": "Click to toggle between standard and beta mezz-in UX",
+	  "default_icon": "ob-pill.png"
+  },
+  "manifest_version": 2
+}
